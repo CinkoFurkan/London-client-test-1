@@ -8,7 +8,7 @@ import Spinner from '../../../components/spinner';
 
 const Items = () => {
   const { data: categories, loading } = useFetch(
-    `${process.env.REACT_APP_API_URL}/api/categories/1`
+    `${process.env.REACT_APP_API_URL}/api/categories`
   );
   const { categoryName } = useParams();
   const [modal, setModal] = useState(false);
