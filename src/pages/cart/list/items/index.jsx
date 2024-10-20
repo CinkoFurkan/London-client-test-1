@@ -7,6 +7,8 @@ import { TiMinus } from 'react-icons/ti';
 const Items = ({ cart }) => {
   const dispatch = useDispatch();
 
+  const baseURL = process.env.REACT_APP_API_URL;
+
   const handleRemoveItem = (cartItemId) => {
     dispatch(removeFromCart(cartItemId));
   };
@@ -34,7 +36,7 @@ const Items = ({ cart }) => {
         >
           <div className='flex justify-center'>
             <img
-              src={product.item.image_url}
+              src={`${baseURL}${product.item.image_url}`}
               alt={product.item.name}
               className='object-cover w-48 h-48 bg-center rounded-2xl'
             />

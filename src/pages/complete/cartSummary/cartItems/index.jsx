@@ -1,13 +1,14 @@
 import sizeMap from '../../../../assets/sizes/sizes';
 
 const CartItems = ({ cart }) => {
+  const baseURL = process.env.REACT_APP_API_URL;
   return (
     <div className="flex flex-col space-y-6">
       {cart.items.map((cartItem, index) => (
         <div key={index} className="p-6">
           <div className="flex flex-col lg:flex-row lg:items-center lg:gap-8">
             <img
-              src={cartItem.item.image_url}
+              src={`${baseURL}${cartItem.item.image_url}`}
               alt={cartItem.item.name}
               className="w-full h-48 object-cover rounded-lg lg:w-48"
             />

@@ -1,10 +1,10 @@
 const Full = ({ products, openModal }) => {
-  const baseURL = 'https://ali-baba-test-1.onrender.com'; // Ensure this is set correctly
+  const baseURL = process.env.REACT_APP_API_URL;
 
   return (
     <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
       {products.items.map((product) => {
-        const imageUrl = `${baseURL}${product.image}`; // Use absolute URL
+        const imageUrl = `${baseURL}${product.image}`; 
 
         return (
           <div
