@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cedf022.css",
+    "main.js": "/static/js/main.bfb7abd7.js",
+    "static/media/doner-1.jpg": "/static/media/doner-1.aad099da55dfb0c958f8.jpg",
+    "static/media/doner.jpg": "/static/media/doner.f67f167fd62772b6b820.jpg",
+    "static/media/Fire.jpg": "/static/media/Fire.3eb6f8ed137c208bfcbf.jpg",
+    "static/media/FirePizza.jpg": "/static/media/FirePizza.4100aae6adbc9c0a2322.jpg",
+    "static/media/burger-1.jpg": "/static/media/burger-1.28469883b71dade627d5.jpg",
+    "static/media/pizza-1.jpg": "/static/media/pizza-1.f3b0bf57efc20d2153cc.jpg",
+    "static/media/FireBurger.jpg": "/static/media/FireBurger.4de104f151abfd32d9cb.jpg",
+    "static/media/alibaba.png": "/static/media/alibaba.d00add577d5295d3c2a0.png",
+    "static/media/alibabamenu.pdf": "/static/media/alibabamenu.5374690651a4380f57ad.pdf",
+    "static/media/alibabadukkan.jpeg": "/static/media/alibabadukkan.7ff6c24707a9caa7e643.jpeg",
+    "static/media/D.png": "/static/media/D.f925af408a90bedb2383.png",
+    "index.html": "/index.html",
+    "main.1cedf022.css.map": "/static/css/main.1cedf022.css.map",
+    "main.bfb7abd7.js.map": "/static/js/main.bfb7abd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cedf022.css",
+    "static/js/main.bfb7abd7.js"
+  ]
+}
