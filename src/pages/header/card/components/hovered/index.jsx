@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const Hovered = ({ cart }) => {
+  const baseURL = process.env.REACT_APP_API_URL;
   return (
     <div className='absolute right-0 w-80 md:w-96 p-4 mt-2 bg-[#0a0a0b] border-white border-[0.5px] shadow-lg z-50 rounded-md flex flex-col'>
       <ul className='overflow-y-auto max-h-[350px] flex-grow'>
@@ -10,7 +11,7 @@ const Hovered = ({ cart }) => {
             className='flex items-center py-6 gap-x-4 border-b-[0.5px]'
           >
             <img
-              src={product.item.image_url}
+              src={`${baseURL}${product.item.image_url}`}
               alt={product.item.name}
               className='w-24 h-24 border-[0.5px] border-white'
             />
