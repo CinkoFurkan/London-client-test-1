@@ -13,6 +13,7 @@ const Items = () => {
   const { categoryName } = useParams();
   const [modal, setModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  console.log(process.env.REACT_APP_API_URL)
 
   const openModal = useCallback((product) => {
     setModal(true);

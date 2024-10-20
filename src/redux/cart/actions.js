@@ -5,7 +5,7 @@ const addToCartAPI =
   (item_id, size_id, salad_toppings, sauce_toppings) => async (dispatch) => {
     try {
       const { data } = await axios.post(
-        'http://127.0.0.1:8000/cart/api/add_to_cart',
+        `${process.env.REACT_APP_API_URL}/cart/api/add_to_cart`,
         {
           item_id,
           size_id,

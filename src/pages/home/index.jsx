@@ -4,6 +4,7 @@ import Header from '../header';
 import Content from './components/content';
 
 const Home = () => {
+  console.log(process.env.REACT_APP_API_URL);
   return (
     <div className='relative min-h-screen overflow-hidden'>
       <div className='w-full'>
