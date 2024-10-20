@@ -2,7 +2,7 @@ const Full = ({ products, openModal }) => {
   const baseURL = process.env.REACT_APP_API_URL;
 
   return (
-    <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 overflow-y-hidden'>
       {products.items.map((product) => {
         const imageUrl = `${baseURL}${product.image}`; 
 
