@@ -9,7 +9,7 @@ const Full = ({ products, openModal }) => {
         >
           <div className='relative'>
             <img
-              src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`}
+              src={product.image}
               alt={product.name}
               className='object-cover w-full h-64 transition-transform duration-300 transform rounded-lg shadow-md hover:scale-105' 
             />
