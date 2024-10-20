@@ -33,12 +33,12 @@ const Navbar = () => {
         {toggle ? (
           <IoClose
             className='transition-transform transform rotate-180'
-            size={24}
+            size={20}
           />
         ) : (
           <IoMenu
             className='transition-transform transform rotate-0'
-            size={24}
+            size={20}
           />
         )}
       </button>
@@ -53,7 +53,7 @@ const Navbar = () => {
             className='absolute p-2 text-black bg-gray-200 rounded-full top-4 right-4 hover:bg-gray-300 focus:outline-none'
             onClick={handleToggle}
           >
-            <IoClose size={24} />
+            <IoClose size={20} />
           </button>
           <div className='mb-6'>
             <Logos className='w-auto h-16' />

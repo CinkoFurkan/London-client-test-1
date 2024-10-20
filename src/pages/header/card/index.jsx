@@ -17,7 +17,7 @@ const Card = () => {
     >
       <Link to='/cart' className='pb-2 cursor-pointer hover:border-blue-500 md:block'>
         <div className='relative flex items-center'>
-          <FaShoppingCart className='text-2xl text-white' />
+          <FaShoppingCart className='text-xl text-white' />
           <span className='absolute top-0 right-0 flex items-center justify-center w-5 h-5 -mt-2 -mr-2 text-xs text-black bg-white rounded-full'>
             {cart.items.length}
           </span>
