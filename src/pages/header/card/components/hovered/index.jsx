@@ -19,7 +19,7 @@ const Hovered = ({ cart }) => {
               <h5 className='text-2xl'>{product.item.name}</h5>
               <p>Quantity : {product.item.quantity}</p>
               <p className='text-sm'>
-                ${parseFloat(product.item.price).toFixed(2)}
+              £{parseFloat(product.item.price).toFixed(2)}
               </p>
             </div>
           </li>
@@ -28,7 +28,7 @@ const Hovered = ({ cart }) => {
 
       <div className='mt-4'>
         <p className='text-xl font-semibold'>
-          Total: $
+          Total: £
           {cart.items
             .reduce(
               (acc, curr) =>

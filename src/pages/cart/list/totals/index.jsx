@@ -11,7 +11,7 @@ const Total = ({ subTotal, setIsOrderCompleted }) => {
             <td data-title='Subtotal' className='py-4 text-right'>
               <span>
                 <bdi>
-                  <span>$</span>
+                  <span>£</span>
                   {subTotal.toFixed(2)}
                 </bdi>
               </span>
@@ -21,7 +21,7 @@ const Total = ({ subTotal, setIsOrderCompleted }) => {
           <tr className='border-b-[0.5px]'>
             <th className='py-4 text-xl text-left'>Shipping</th>
             <td data-title='Shipping' className='py-4 text-right'>
-              $2.00
+            £1.50
             </td>
           </tr>
 
@@ -31,8 +31,8 @@ const Total = ({ subTotal, setIsOrderCompleted }) => {
               <strong>
                 <span className='woocommerce-Price-amount amount'>
                   <bdi>
-                    <span className='woocommerce-Price-currencySymbol'>$</span>
-                    {(subTotal + 2).toFixed(2)}
+                    <span className='woocommerce-Price-currencySymbol'>£</span>
+                    {(subTotal + 1.50).toFixed(2)}
                   </bdi>
                 </span>
               </strong>
