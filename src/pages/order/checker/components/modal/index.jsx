@@ -64,7 +64,7 @@ const CheckerModal = ({ setChecker }) => {
 
         <input
           onChange={(e) => setZip(e.target.value)}
-          placeholder='PostCode'
+          placeholder='W9 3EF'
           className='w-full px-4 py-3 text-lg text-black border-[1.5px] border-black outline-none mb-6'
         />
         {showErrorModal && (
